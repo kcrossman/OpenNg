@@ -1,0 +1,25 @@
+<header>
+  <nav>
+    <a [routerLink]="null">OpenNg</a>
+    <ul>
+      <li>
+        <a class="nav-link" [routerLink]="['/help']">Help</a>
+      </li>
+      <li>
+        <ul>
+          Components
+          <a class="dropdown-item" [routerLink]="['/modals']">Modals</a>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  Developed by Kody Crossman @
+  <a href="https://github.com/kcrossman/OpenNgLib">GitHub</a>
+</footer>

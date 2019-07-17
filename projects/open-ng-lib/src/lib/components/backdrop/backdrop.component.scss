@@ -1,0 +1,9 @@
+@import "../../../styles/sass/variables";
+@import "../../../styles/sass/mixins";
+
+.open-ng-backdrop {
+  position: fixed;
+  @include cover(0, 0, 0, 0);
+  background-color: rgba($black, .4);
+  z-index: 1000;
+}

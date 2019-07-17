@@ -1,0 +1,35 @@
+@import "../../../styles/sass/variables";
+@import "../../../styles/sass/mixins";
+
+.open-ng-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1050;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+
+  .open-ng-modal-container {
+    padding: .5em;
+    @include hcenter(absolute);
+
+    .open-ng-modal-content {
+      position: relative;
+      background-color: $white;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: $smborder solid rgba($black,.2);
+      border-radius: $smsize;
+      outline: 0;
+      box-shadow: 0 5px 15px rgba(black,.5);
+    }
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}

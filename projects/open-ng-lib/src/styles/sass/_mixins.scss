@@ -1,0 +1,60 @@
+@mixin ellipsis() {
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin transform($content) {
+  -moz-transform: $content;
+  -ms-transform: $content;
+  -o-transform: $content;
+  -webkit-transform: $content;
+  transform: $content;
+}
+
+@mixin cover($top, $right, $bottom, $left) {
+    top: $top;
+    left: $left;
+    right: $right;
+    bottom: $bottom;
+}
+
+@mixin hcenter($position) {
+  @if length($position) == 0 {
+      $position: relative;
+  }
+
+  position: $position;
+  left: 50%;
+  @include transform(translate3d(-50%,0,0));
+}
+
+@mixin vcenter($position) {
+  @if length($position) == 0 {
+      $position: relative;
+  }
+
+  position: $position;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin center($position) {
+  @if length($position) == 0 {
+      $position: relative;
+  }
+
+  position: $position;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
