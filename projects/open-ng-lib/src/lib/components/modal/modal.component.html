@@ -1,7 +1,22 @@
-<aside class="open-ng-modal" [hidden]="!visible">
-  <div class="open-ng-modal-container">
-    <div class="open-ng-modal-content">
-      <ng-content></ng-content>
+<div class="onl-modal" [hidden]="!visible">
+  <div class="onl-container">
+    <div class="onl-modal-content">
+      <div class="onl-modal-header">
+        <div class="onl-modal-controls">
+          <ng-content select="[onl-modal-controls]"></ng-content>
+          <button type="button" *ngIf="canMaximize" (click)="maximize()">
+            m
+          </button>
+          <button type="button" *ngIf="canClose" (click)="close()">
+            x
+          </button>
+        </div>
+        <div class="onl-modal-title-wrapper">
+          <ng-content select="[onl-modal-title]"></ng-content>
+        </div>
+      </div>
+      <ng-content select="[onl-modal-body]"></ng-content>
+      <ng-content select="[onl-modal-footer]"></ng-content>
     </div>
   </div>
-</aside>
+</div>

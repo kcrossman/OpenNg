@@ -1,7 +1,7 @@
 @import "../../../styles/sass/variables";
 @import "../../../styles/sass/mixins";
 
-.open-ng-modal {
+.onl-modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -13,11 +13,11 @@
   -webkit-overflow-scrolling: touch;
   outline: 0;
 
-  .open-ng-modal-container {
+  .onl-modal-container {
     padding: .5em;
     @include hcenter(absolute);
 
-    .open-ng-modal-content {
+    .onl-modal-content {
       position: relative;
       background-color: $white;
       -webkit-background-clip: padding-box;
