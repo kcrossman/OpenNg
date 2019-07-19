@@ -1,4 +1,6 @@
 # OpenNg
+Github: https://github.com/kcrossman/OpenNg
+Docs: https://kcrossman.github.io/OpenNg/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
