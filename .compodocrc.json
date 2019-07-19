@@ -1,0 +1,6 @@
+{
+  "tsconfig": "projects/open-ng-lib/tsconfig.lib.json",
+  "output": "docs",
+  "name": "OpenNg Docs",
+  "theme": "postmark"
+}
