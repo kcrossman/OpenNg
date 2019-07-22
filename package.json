@@ -5,7 +5,7 @@
     "ng": "ng",
     "build": "ng build",
     "build:lib": "ng build open-ng-lib",
-    "docs": "npx compodoc -c .compodocrc.json",
+    "docs": "npx compodoc -c .compodocrc",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
