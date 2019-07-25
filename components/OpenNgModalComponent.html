@@ -939,7 +939,7 @@ export class OpenNgModalComponent implements AfterViewInit {
 <script src="../js/libs/deep-iterator.js"></script>
 <script>
         var COMPONENT_TEMPLATE = '<div><div class="onl-modal" [hidden]="!visible">  <div class="onl-container">    <div class="onl-modal-content">      <div class="onl-modal-header">        <div class="onl-modal-controls">          <ng-content select="[onl-modal-controls]"></ng-content>          <button type="button" *ngIf="canMaximize" (click)="maximize()">            m          </button>          <button type="button" *ngIf="canClose" (click)="close()">            x          </button>        </div>        <div class="onl-modal-title-wrapper">          <ng-content select="[onl-modal-title]"></ng-content>        </div>      </div>      <ng-content select="[onl-modal-body]"></ng-content>      <ng-content select="[onl-modal-footer]"></ng-content>    </div>  </div></div></div>'
-    var COMPONENTS = [{'name': 'OpenNgBackdropComponent', 'selector': 'onl-backdrop'},{'name': 'OpenNgModalComponent', 'selector': 'onl-modal'}];
+    var COMPONENTS = [{'name': 'OpenNgBackdropComponent', 'selector': 'onl-backdrop'},{'name': 'OpenNgLibFileSelectComponent', 'selector': 'onl-file-select'},{'name': 'OpenNgModalComponent', 'selector': 'onl-modal'}];
     var DIRECTIVES = [{'name': 'OpenNgAllowFilterDirective', 'selector': '[onl-allow]'},{'name': 'OpenNgDisallowFilterDirective', 'selector': '[onl-disallow]'}];
     var ACTUAL_COMPONENT = {'name': 'OpenNgModalComponent'};
 </script>

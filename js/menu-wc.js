@@ -55,16 +55,20 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="modules/OpenNgLibModule.html" data-type="entity-link">OpenNgLibModule</a>
                                     <li class="chapter inner">
                                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                            'data-target="#components-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' : 'data-target="#xs-components-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' }>
+                                            'data-target="#components-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' : 'data-target="#xs-components-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' }>
                                             <span class="icon ion-md-cog"></span>
                                             <span>Components</span>
                                             <span class="icon ion-ios-arrow-down"></span>
                                         </div>
-                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' :
-                                            'id="xs-components-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' }>
+                                        <ul class="links collapse" ${ isNormalMode ? 'id="components-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' :
+                                            'id="xs-components-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' }>
                                             <li class="link">
                                                 <a href="components/OpenNgBackdropComponent.html"
                                                     data-type="entity-link" data-context="sub-entity" data-context-id="modules">OpenNgBackdropComponent</a>
+                                            </li>
+                                            <li class="link">
+                                                <a href="components/OpenNgLibFileSelectComponent.html"
+                                                    data-type="entity-link" data-context="sub-entity" data-context-id="modules">OpenNgLibFileSelectComponent</a>
                                             </li>
                                             <li class="link">
                                                 <a href="components/OpenNgModalComponent.html"
@@ -74,13 +78,13 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                     </li>
                                 <li class="chapter inner">
                                     <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                        'data-target="#directives-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' : 'data-target="#xs-directives-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' }>
+                                        'data-target="#directives-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' : 'data-target="#xs-directives-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' }>
                                         <span class="icon ion-md-code-working"></span>
                                         <span>Directives</span>
                                         <span class="icon ion-ios-arrow-down"></span>
                                     </div>
-                                    <ul class="links collapse" ${ isNormalMode ? 'id="directives-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' :
-                                        'id="xs-directives-links-module-OpenNgLibModule-3717b444f186b065aac570ca012f5a29"' }>
+                                    <ul class="links collapse" ${ isNormalMode ? 'id="directives-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' :
+                                        'id="xs-directives-links-module-OpenNgLibModule-c14175e3dfba53baf7a272bceccad4b6"' }>
                                         <li class="link">
                                             <a href="directives/OpenNgAllowFilterDirective.html"
                                                 data-type="entity-link" data-context="sub-entity" data-context-id="modules">OpenNgAllowFilterDirective</a>
@@ -104,6 +108,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                         <ul class="links collapse " ${ isNormalMode ? 'id="components-links"' : 'id="xs-components-links"' }>
                             <li class="link">
                                 <a href="components/OpenNgBackdropComponent.html" data-type="entity-link">OpenNgBackdropComponent</a>
+                            </li>
+                            <li class="link">
+                                <a href="components/OpenNgLibFileSelectComponent.html" data-type="entity-link">OpenNgLibFileSelectComponent</a>
                             </li>
                             <li class="link">
                                 <a href="components/OpenNgModalComponent.html" data-type="entity-link">OpenNgModalComponent</a>
