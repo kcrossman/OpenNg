@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import {
   OpenNgBackdropComponent,
+  OpenNgLibFileSelectComponent,
   OpenNgModalComponent
 } from './components';
 import {
@@ -12,7 +14,8 @@ import {
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   declarations: [
     // Directives:
@@ -20,6 +23,7 @@ import {
     OpenNgDisallowFilterDirective,
     // Components:
     OpenNgBackdropComponent,
+    OpenNgLibFileSelectComponent,
     OpenNgModalComponent
   ],
   exports: [
@@ -28,6 +32,7 @@ import {
     OpenNgDisallowFilterDirective,
     // Components:
     OpenNgBackdropComponent,
+    OpenNgLibFileSelectComponent,
     OpenNgModalComponent
   ]
 })

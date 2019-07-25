@@ -1,14 +1,24 @@
 <header>
   <nav>
-    <a [routerLink]="null">OpenNg</a>
+    <a [routerLink]="['/']">OpenNg</a>
     <ul>
       <li>
-        <a class="nav-link" [routerLink]="['/help']">Help</a>
+        <a [routerLink]="['/help']">Help</a>
       </li>
       <li>
+        Components
         <ul>
-          Components
-          <a class="dropdown-item" [routerLink]="['/modals']">Modals</a>
+          <li>
+            <a [routerLink]="['/inputs']">Inputs</a>
+            <ul>
+              <li>
+                <a [routerLink]="['/inputs/file-select']">File Select</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a [routerLink]="['/modals']">Modals</a>
+          </li>
         </ul>
       </li>
     </ul>

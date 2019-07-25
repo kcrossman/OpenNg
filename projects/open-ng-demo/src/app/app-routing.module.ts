@@ -8,6 +8,11 @@ const routes: Routes = [
       import('./pages/help/help-page.module').then(m => m.HelpPageModule)
   },
   {
+    path: 'inputs',
+    loadChildren: () =>
+      import('./pages/inputs/inputs-page.module').then(m => m.InputsPageModule)
+  },
+  {
     path: 'modals',
     loadChildren: () =>
       import('./pages/modals/modals-page.module').then(m => m.ModalsPageModule)

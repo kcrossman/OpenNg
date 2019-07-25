@@ -1,2 +1,3 @@
-export * from "./backdrop";
-export * from "./modal";
+export * from './backdrop';
+export * from './inputs';
+export * from './modal';

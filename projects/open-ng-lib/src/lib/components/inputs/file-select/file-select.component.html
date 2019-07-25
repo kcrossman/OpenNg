@@ -1,0 +1,16 @@
+<div class="file-select">
+  <button type="button" name="selectFileButton" (click)="fileInput.click()">
+    <i *ngIf="showSelectFileIcon" [class]="selectFileIconClasses"></i>
+    <span>{{file?.name || selectFileLabel}}</span>
+  </button>
+  <input type="file" name="selectFileInput" (change)="selectFile($event)" #fileInput [hidden]="true" />
+  <input type="text" name="fileNameInput" [(ngModel)]="fileName" [placeholder]="fileNamePlaceholder" />
+  <button type="button" name="uploadFileButton" (click)="uploadFile()" [disabled]="!canUploadFile">
+    <i *ngIf="showUploadFileIcon" [class]="uploadFileIconClasses"></i>
+    <span>{{uploadFileLabel}}</span>
+  </button>
+  <button type="button" name="clearFileButton" (click)="clear()" [disabled]="!canUploadFile">
+    <i *ngIf="showClearFileIcon" [class]="clearFileIconClasses"></i>
+    <span>{{clearFileLabel}}</span>
+  </button>
+</div>
