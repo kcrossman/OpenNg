@@ -2,7 +2,7 @@ import { Component, Input, Output } from '@angular/core';
 import { EventEmitter } from 'events';
 
 @Component({
-  selector: 'onl-file-select',
+  selector: '[onl-file-select]',
   templateUrl: './file-select.component.html',
   styleUrls: ['./file-select.component.scss']
 })

@@ -9,7 +9,10 @@
     ],
     "component-selector": [
       true,
-      "element",
+      [
+        "element",
+        "attribute"
+      ],
       "onl",
       "kebab-case"
     ]
