@@ -1,10 +1,21 @@
-This is barely in its started phase. I'll be gradually adding code, but I hope this serves as an example of how you can create an Angular library.
-
 # OpenNg
+This is a boilerplate Angular Library project with some (perhaps) useful components for you to use as your own. I don't really intend on publish this package, though feel free to fork it and do what you will with it.
+
 Github: https://github.com/kcrossman/OpenNg
-Docs: https://kcrossman.github.io/OpenNg/
+
+Docs: https://kcrossman.github.io/OpenNg/ (compodoc, generated documentation)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+
+## From Scratch
+These are the commands I ran to generate the project, aside from configuration... For configuration, see project files.
+
+1) ng new open-ng --style=scss --createApplication=false --skip-git --skip-install
+2) ng g library open-ng-lib --skip-install
+3) ng g application open-ng-demo --style=scss --routing --minimal --skip-install
+4) npm i
+5) ng update rxjs
+6) (optional) npm i @compodoc/compodoc --save-dev
 
 ## Development server
 
