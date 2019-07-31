@@ -12,7 +12,7 @@ These are the commands I ran to generate the project, aside from configuration..
 
 1) ng new open-ng --style=scss --createApplication=false --skip-git --skip-install
 2) ng g library open-ng-lib --skip-install
-3) ng g application open-ng-demo --style=scss --routing --minimal --skip-install
+3) (optional) ng g application open-ng-demo --style=scss --routing --minimal --skip-install
 4) npm i
 5) ng update rxjs
 6) (optional) npm i @compodoc/compodoc --save-dev
