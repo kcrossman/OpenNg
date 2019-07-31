@@ -10,12 +10,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## From Scratch
 These are the commands I ran to generate the project, aside from configuration... For configuration, see project files.
 
-1) ng new open-ng --style=scss --createApplication=false --skip-git --skip-install
-2) ng g library open-ng-lib --skip-install
-3) (optional) ng g application open-ng-demo --style=scss --routing --minimal --skip-install
-4) npm i
-5) ng update rxjs
-6) (optional) npm i @compodoc/compodoc --save-dev
+1) `ng new open-ng --style=scss --createApplication=false --skip-git --skip-install`
+2) `ng g library open-ng-lib --skip-install`
+3) _(optional)_ `ng g application open-ng-demo --style=scss --routing --minimal --skip-install`
+4) `npm i`
+5) `ng update rxjs`
+6) _(optional)_ `npm i @compodoc/compodoc --save-dev`
 
 ## Development server
 
