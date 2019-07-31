@@ -1,5 +1,5 @@
 # OpenNg
-This is a boilerplate Angular Library project with some useful components, directives, etc. for you to use as your own. I don't really intend on publish this package, though feel free to fork it and do what you will with it.
+This is a boilerplate Angular Library project with some useful components, directives, etc. for you to use as your own. I don't really intend on publishing this package, but feel free to fork it and do what you will with it.
 
 Github: https://github.com/kcrossman/OpenNg
 
