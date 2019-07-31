@@ -1,3 +1,5 @@
+This is barely in its started phase. I'll be gradually adding code, but I hope this serves as an example of how you can create an Angular library.
+
 # OpenNg
 Github: https://github.com/kcrossman/OpenNg
 Docs: https://kcrossman.github.io/OpenNg/
